@@ -3,7 +3,7 @@
                     <div class="feature_images">
                         <div class="big_image feature_image">
                             <img src="img/brand_image01_after.jpg" alt="カップの写真">
-                            <p class="feature_text">Brand</p>
+                            <p class="feature_text text_shadow">Brand</p>
                         </div>
                         <div class="feature_image">
                             <img src="img/brand_image02_after.jpg" alt="サラダの写真">
@@ -22,14 +22,14 @@
                 <div class="feature blue_background">
                     <div class="feature_images">
                         <div class="big_image feature_image">
-                            <img src="img/usability_image01.jpg" alt="カップの写真">
+                            <img src="img/usability_image01_after.jpg" alt="カップの写真">
                             <p class="feature_text">Usability</p>
                         </div>
                         <div class="feature_image">
-                            <img src="img/usability_image02.jpg" alt="サラダの写真">
+                            <img src="img/usability_image02_after.jpg" alt="サラダの写真">
                         </div>
                         <div class="feature_image">
-                            <img src="img/usability_image03.jpg" alt="お皿の写真">
+                            <img src="img/usability_image03_after.jpg" alt="お皿の写真">
                         </div>
                     </div>
                     <div class="feature_explanation">
@@ -42,14 +42,14 @@
                 <div class="feature">
                     <div class="feature_images">
                         <div class="big_image feature_image">
-                            <img src="img/design_image01.jpg" alt="カップの写真">
+                            <img src="img/design_image01_after.jpg" alt="カップの写真">
                             <p class="feature_text">Design</p>
                         </div>
                         <div class="feature_image">
-                            <img src="img/design_image02.jpg" alt="サラダの写真">
+                            <img src="img/design_image02_after.jpg" alt="サラダの写真">
                         </div>
                         <div class="feature_image">
-                            <img src="img/design_image03.jpg" alt="お皿の写真">
+                            <img src="img/design_image03_after.jpg" alt="お皿の写真">
                         </div>
                     </div>
                     <div class="feature_explanation">

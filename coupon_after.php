@@ -2,17 +2,19 @@
         <div class="coupon_wrapper">
             <div class="coupon_inner">
                 <p class="coupon_message">コスタ・ノバの購入に<br class="sp_display">ご利用いただける<br>
-                    <span class="font_red">15％割引</span>コードプレゼント！</p>
+                    <span class="font_red">15％割引</span>コードプレゼント！
+                </p>
                 <img class="coupon_design" src="img/title.jpg" alt="design_line">
-                <p class="campaign_period">キャンペーン期間：2024/1/18~2024/1/24 </p>
+                <p class="campaign_period">キャンペーン期間：2024/7/19~2024/7/28</p>
                 <div class="coupon_container">
                     <div class="coupon_code">
                         <div class="coupon_code_text">
                             <p class="pc_20px">クーポンコード</p>
-                            <p class="pc_40px font_jomolhari">Oisix○○</p>
+                            <p class="pc_40px font_jomolhari">costanova7</p>
                         </div>
                     </div>
 
+                    <!--修正要す-->
                     <!--今すぐ購入するボタン-->
                     <div class="purchase_button">
                         <a href="#">今すぐ購入する</a>

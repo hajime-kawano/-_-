@@ -61,6 +61,9 @@ img {
     font-size: 20px;
 }
 
+.text_shadow {
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px;}
+
 main {
     background: url(../img/background_brand.png) repeat;
 }
