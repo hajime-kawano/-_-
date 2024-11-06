@@ -8,8 +8,7 @@
     border: #000000 solid 3px;
 }
 
-.purchase_button::after {
-    content: "";
+.purchase_button a::before {
     content: "";
     position: absolute;
     border: solid 1px #000000;
@@ -18,3 +17,22 @@
     bottom: 5px;
     right: 5px;
 }
+
+ /* .purchase_button a::after {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 11px;
+    border-right: #000000 solid 1px;
+    border-bottom: #000000 solid 1px;
+    transform: skewX(42deg);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.purchase_button a:hover::after {
+    right: 10px;
+    transition: 1s;
+    opacity: 0;
+} */

@@ -62,7 +62,8 @@ img {
 }
 
 .text_shadow {
-    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px;}
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px;
+}
 
 main {
     background: url(../img/background_brand.png) repeat;
@@ -306,6 +307,8 @@ main {
 .feature_image img {
     width: 100%;
     height: 100%;
+    aspect-ratio: 1.5 / 1;
+    object-fit: cover;
 }
 
 .big_image {
@@ -347,7 +350,6 @@ main {
 }
 
 .collection {
-    height: 100%;
     width: calc(100% / 3);
     padding: 23px;
     background-color: #ffffff;
@@ -360,7 +362,7 @@ main {
 
 .collection img {
     width: 100%;
-    height: 250px;
+    aspect-ratio: 1.5 / 1;
     object-fit: cover;
 }
 
@@ -368,8 +370,7 @@ main {
     position: relative;
 }
 
-.series_content {
-}
+.series_content {}
 
 .series_explanation {
     padding-top: 18px;
@@ -474,6 +475,21 @@ footer {
 }
 
 /* レスポンシブ */
+@media (max-width: 900px) {
+    .purchase_button {
+        font-size: 26px;
+    }
+    .feature_text {
+        font-size: 60px;
+        top: -20px;
+        padding-left: 15px;
+    }
+
+    .series_name {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 16px;
@@ -523,7 +539,7 @@ footer {
     .main_visual_news {
         width: 100%;
         font-size: 30px;
-    }    
+    }
 
     .coupon_message {
         padding-top: 0;
@@ -574,7 +590,7 @@ footer {
         border-bottom: #000000 solid 1px;
         transform: skewX(42deg);
         position: absolute;
-        top: 21px;
+        top: 19px;
         right: 25px;
     }
 

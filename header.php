@@ -5,7 +5,7 @@
     <?php
     date_default_timezone_set('Asia/Tokyo');
     $current_date = new DateTime(); // 現在の日付を取得
-    $switch_date = new DateTime('2024-11-1'); // 切り替え日付
+    $switch_date = new DateTime('2024-11-8'); // 切り替え日付
     ?>
 
     <meta charset="UTF-8">
